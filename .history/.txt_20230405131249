@@ -1,0 +1,27 @@
+Pending Api's
+Banner (Create , Delete)
+User (Read , Delete)
+Plan Type (create , Delete)
+Meal (create , Delete)
+Coupon (create , Delete)
+Restaurant (  Read , Create , Delete)
+
+
+
+Admin Panel:
+2, Viewing of vendor payments and settlements
+3, Tracking delivery agents’ location
+4, Managing user accounts and Vendor and catering services.
+5, customizing orders and subscriptions details (Adding and deleting new items Subscription
+plans)
+6, Customizing billing details adding Service charges, package charges, Sur charges other
+additional charges
+
+Coupons: Very most important
+1, Offer on Orders (Vendor control)
+2, Offer on Subscription (Home carriage Vendor control)
+3, Offer on catering services plates (Catering services Vendor control)
+4, festival coupons on specific Restaurants, Home carriage Subscription plans, catering services.
+(Admin control)
+5, Offer on Newly added (Vendors) Restaurants, catering services. (Admin control)
+6, Offers for Newly joined users. (Admin control)

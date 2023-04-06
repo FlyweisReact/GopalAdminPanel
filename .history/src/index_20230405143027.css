@@ -1,0 +1,197 @@
+/** @format */
+  @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Poppins:wght@600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Gideon Roman ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Gideon Roman ;
+}
+html{
+  font-family: Gideon Roman ;
+}
+
+/* Wcomponents */
+.wcomp::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.cancel-pol h1 {
+  text-align: center;
+}
+
+.cancel-pol p {
+  margin-top: 200px;
+  text-align: center;
+  color: rgb(216, 48, 48);
+}
+
+.buttonClass {
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px;
+  color: rgb(85, 51, 255);
+  font-size: 20px;
+  border: 1px solid rgb(85, 51, 255);
+  transition: 0.5s;
+}
+.buttonClass:hover {
+  color: #fff;
+  background-color: rgb(85, 51, 255);
+}
+.buttonClass2 {
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px;
+  color: #0d9488;
+  font-size: 20px;
+  border: 1px solid #0d9488;
+  transition: 0.5s;
+}
+.buttonClass2:hover {
+  color: #fff;
+  background-color: #0d9488;
+}
+.button2 {
+  background-color: rgb(85, 51, 255);
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid rgb(85, 51, 255);
+  transition: 0.5s;
+}
+.button2:hover {
+  color: rgb(85, 51, 255);
+  background-color: #fff;
+}
+.button3 {
+  background-color: #0d9488;
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #0d9488;
+  transition: 0.5s;
+}
+.button3:hover {
+  color: #0d9488;
+  background-color: #fff;
+}
+
+.main-cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 20px;
+}
+.main-cont div {
+  width: 300px;
+}
+
+.centerModal{
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #000;
+  padding: 20px;
+}
+.centerModal div p {
+  font-size: 16px;
+}
+.centerModal div input {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+}
+.centerModal div select {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  outline: none;
+}
+.centerModal button{
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.alertDiv{
+  width: 400px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fb5655 ;
+  background-color: #fb5655;
+  padding: 10px;
+margin-bottom: 20px;
+}
+.alertDiv i{
+  color: #fff;
+  font-size: 20px;
+}
+.alertDiv p{
+  font-size: 20px;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.fa-trash{
+  color: red;
+  cursor: pointer;
+}
+
+
+.modal form input{
+  border: 1px solid black",
+  width: "100%",
+  padding: "2px",
+  outline: "none",
+  color: "#000",
+  backgroundColor: "transparent",
+  fontSize: "18px",
+}
